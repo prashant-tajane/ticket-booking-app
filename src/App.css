@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400,700&display=swap');
+
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -280px;
+  }
+  
+  .theater-container {
+    border: 3px solid black;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    
+  }
+  .screen {
+  text-align: center;
+  position: relative;
+  max-width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  }
+  
+  .title {
+  margin: 20px 0;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  .theater-screen {
+    text-align: center;
+    height: 7px;
+    width: 70%;
+    background-color: black;
+    margin: 10px auto;
+   
+
+  }  
+
+  .seats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 70px;
+  }
+  
+  .row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  }
+  
+  .seat {
+  width: 20%;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 8px;
+  }
+  
+  .price {
+  margin: 20px 0;
+  text-align: center;
+  }
+  
+  .book-now {
+  padding: 10px 20px;
+  background-color: green;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  }
+  
+  .booking-done-popup {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: red;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: -20px 0px;
+  }
+
+  .popup-text{
+   font-weight: bold;
+   font-size: 18px;
+  }
+  
+@media only screen and (max-width: 600px) {
+  .theater-container {
+    left: 5%;
+    right: 5%;
+  }
+  .theater-screen {
+    width: 80%;
+  }
+  .seat {
+    width: 40%;
+  }
+}
